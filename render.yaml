@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: comunidade-crista-rocha-eterna
+    runtime: static
+    staticPublishPath: ./public
+    buildCommand: ""

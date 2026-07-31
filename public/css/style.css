@@ -1,0 +1,271 @@
+/* Comunidade Cristã Rocha Eterna
+   Estilo "modelo Blogger" antigo, feito à mão pela secretaria da igreja :) */
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #e9e2d0 url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"><rect width="6" height="6" fill="%23e9e2d0"/><rect width="1" height="1" fill="%23e0d8c3"/></svg>');
+  font-family: Georgia, "Times New Roman", serif;
+  color: #3a2f22;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+a { color: #7a2e2e; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 14px;
+}
+
+/* ---------- HEADER ---------- */
+header.site-header {
+  background: #4a2f22;
+  background: linear-gradient(180deg, #5a3826 0%, #422a1c 100%);
+  border-bottom: 6px solid #7a2e2e;
+  padding: 28px 0 22px;
+}
+
+.header-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 14px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.site-logo {
+  flex-shrink: 0;
+  width: 58px;
+  height: 58px;
+}
+
+.site-title-block h1 {
+  margin: 0;
+  font-family: "Trebuchet MS", Georgia, serif;
+  font-size: 30px;
+  color: #f2e9d8;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 0 #2c1c12;
+}
+
+.site-title-block p {
+  margin: 4px 0 0;
+  color: #cbb89a;
+  font-size: 13px;
+  font-style: italic;
+}
+
+nav.site-nav {
+  background: #f2e9d8;
+  border-bottom: 1px solid #c9b98f;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.15);
+}
+
+nav.site-nav ul {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 14px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+nav.site-nav li a {
+  display: block;
+  padding: 10px 16px;
+  color: #4a2f22;
+  font-family: "Trebuchet MS", Georgia, serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-right: 1px solid #ddd0ac;
+}
+
+nav.site-nav li a:hover {
+  background: #7a2e2e;
+  color: #f2e9d8;
+  text-decoration: none;
+}
+
+/* ---------- LAYOUT ---------- */
+.content-wrap {
+  max-width: 1000px;
+  margin: 22px auto 40px;
+  padding: 0 14px;
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 26px;
+}
+
+@media (max-width: 720px) {
+  .content-wrap { grid-template-columns: 1fr; }
+  .header-inner { flex-direction: column; text-align: center; }
+}
+
+main.posts-column { min-width: 0; }
+
+/* ---------- POST CARD ---------- */
+.post {
+  background: #fbf7ee;
+  border: 1px solid #d8cba3;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.08);
+  padding: 22px 26px 18px;
+  margin-bottom: 26px;
+}
+
+.post-title {
+  margin: 0 0 4px;
+  font-size: 24px;
+  font-family: "Trebuchet MS", Georgia, serif;
+  color: #5a2020;
+}
+
+.post-title a { color: inherit; }
+
+.post-meta {
+  font-size: 12px;
+  color: #8a7a5c;
+  border-bottom: 1px dashed #d8cba3;
+  padding-bottom: 10px;
+  margin-bottom: 14px;
+  font-family: Verdana, sans-serif;
+}
+
+.post-meta .tag {
+  background: #efe4c8;
+  border: 1px solid #cbb989;
+  color: #6b5327;
+  padding: 1px 7px;
+  border-radius: 3px;
+  font-size: 11px;
+  margin-right: 4px;
+}
+
+.post-body p { margin: 0 0 14px; }
+.post-body blockquote {
+  margin: 14px 10px;
+  padding: 8px 16px;
+  border-left: 4px solid #7a2e2e;
+  background: #f3ecd9;
+  font-style: italic;
+  color: #4a3a20;
+}
+
+.post-footer {
+  margin-top: 14px;
+  padding-top: 8px;
+  border-top: 1px dashed #d8cba3;
+  font-size: 12px;
+  font-family: Verdana, sans-serif;
+  color: #8a7a5c;
+  display: flex;
+  justify-content: space-between;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* ---------- SIDEBAR ---------- */
+aside.sidebar { min-width: 0; }
+
+.widget {
+  background: #fbf7ee;
+  border: 1px solid #d8cba3;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+
+.widget h2 {
+  background: #efe4c8;
+  border-bottom: 1px solid #d8cba3;
+  margin: 0;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-family: "Trebuchet MS", Georgia, serif;
+  color: #5a2020;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.widget-body { padding: 12px 14px 14px; font-size: 13.5px; }
+
+.widget-body ul { margin: 0; padding-left: 18px; }
+.widget-body li { margin-bottom: 5px; }
+
+.archive-year { font-weight: bold; color: #5a2020; margin-top: 6px; }
+.archive-year:first-child { margin-top: 0; }
+
+.verse-box {
+  font-style: italic;
+  color: #4a3a20;
+  line-height: 1.5;
+}
+.verse-ref { display: block; text-align: right; font-style: normal; font-size: 12px; margin-top: 6px; color: #8a7a5c; }
+
+.counter {
+  font-family: "Courier New", monospace;
+  background: #1a1a1a;
+  color: #4dff4d;
+  padding: 6px 10px;
+  display: inline-block;
+  letter-spacing: 2px;
+  font-size: 14px;
+  border: 2px inset #666;
+}
+
+/* ---------- STATIC PAGES ---------- */
+.page-block {
+  background: #fbf7ee;
+  border: 1px solid #d8cba3;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.08);
+  padding: 26px 30px;
+}
+
+.page-block h1 {
+  color: #5a2020;
+  font-family: "Trebuchet MS", Georgia, serif;
+  border-bottom: 2px solid #7a2e2e;
+  padding-bottom: 8px;
+}
+
+.page-block h3 { color: #5a2020; }
+
+/* ---------- FOOTER ---------- */
+footer.site-footer {
+  background: #3a2418;
+  color: #cbb89a;
+  text-align: center;
+  padding: 22px 14px;
+  font-size: 12px;
+  font-family: Verdana, sans-serif;
+  margin-top: 30px;
+}
+
+footer.site-footer a { color: #e8d9b8; }
+
+.pagination {
+  text-align: center;
+  margin: 10px 0 26px;
+  font-family: Verdana, sans-serif;
+  font-size: 13px;
+}
+.pagination a, .pagination span {
+  display: inline-block;
+  padding: 6px 11px;
+  margin: 0 2px;
+  border: 1px solid #d8cba3;
+  background: #fbf7ee;
+}
+.pagination span.current { background: #7a2e2e; color: #fff; }
