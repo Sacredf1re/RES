@@ -41,9 +41,13 @@ body=[
 dict(date="2019-04-21", title="Páscoa: a vitória sobre a morte", category="Especial", author="Pastor Renato Almeida", comments=9,
 body=[
 "Neste domingo celebramos, mais uma vez, a maior notícia que a humanidade já recebeu: Cristo ressuscitou! Não estamos apenas lembrando um fato histórico, mas vivendo a certeza de que a morte não tem a última palavra sobre nossas vidas.",
+"Chegamos ao templo ainda de madrugada para preparar tudo: as cadeiras extras, as flores que as irmãs trouxeram de seus próprios jardins, os cartazes coloridos que as crianças da Escola Bíblica Dominical fizeram na semana passada. Era visível, em cada detalhe, o cuidado de um povo que queria honrar essa data.",
 "Durante o culto desta manhã, tivemos a bênção de receber quatro novas famílias que chegaram à nossa igreja nos últimos meses. Foi lindo ver o salão cheio, as crianças com suas roupas novas, e o louvor subindo forte logo cedo.",
+"Pregamos hoje sobre os dois discípulos no caminho de Emaús, que caminharam ao lado do próprio Jesus ressuscitado sem reconhecê-lo, tomados pela tristeza da sexta-feira anterior. Quantas vezes nós também caminhamos ao lado da resposta de Deus sem perceber, porque estamos olhando demais para o que perdemos?",
 "<blockquote>&ldquo;Ele não está aqui, pois ressuscitou, como havia dito.&rdquo; — Mateus 28:6</blockquote>",
-"Que esta Páscoa renove em cada um de nós a esperança de que, assim como Ele venceu o túmulo, também vencerá as lutas que enfrentamos hoje.",
+"Um dos momentos mais bonitos da manhã foi o testemunho breve de um casal que chegou à igreja há apenas dois meses, atravessando uma fase difícil no casamento, e que hoje testificou publicamente que encontrou, na Rocha Eterna, um lugar de recomeço. Não é à toa que celebramos a ressurreição — ela também acontece, em menor escala, todos os dias, na vida de quem se dispõe a recomeçar.",
+"Encerramos o culto com a ceia do Senhor, algo que fazemos poucas vezes ao ano, e que neste domingo teve um peso especial: relembrar o corpo partido e o sangue derramado antes de celebrar o túmulo vazio.",
+"Que esta Páscoa renove em cada um de nós a esperança de que, assim como Ele venceu o túmulo, também vencerá as lutas que enfrentamos hoje. E que a Rocha Eterna continue sendo, para quantos Deus trouxer até aqui, um lugar onde a ressurreição se torna visível em vidas reais.",
 ]),
 
 dict(date="2019-05-19", title="Vigília da Colheita: uma noite de milagres", category="Vigília", author="Pastor Renato Almeida", comments=14,
@@ -86,15 +90,22 @@ body=[
 dict(date="2019-11-24", title="Semana de Consagração: preparando o coração", category="Especial", author="Pastor Renato Almeida", comments=7,
 body=[
 "De 25 a 29 de novembro realizaremos nossa Semana de Consagração, com cultos todas as noites às 20h. O tema deste ano é &ldquo;Renovando a Aliança&rdquo;, baseado em Josué 24.",
+"Escolhemos esse tema pensando justamente no momento em que estamos como igreja: um ano de crescimento, de novas famílias chegando, mas também de rotina se instalando no meio do povo. E é fácil, quando tudo vai bem, esquecer de renovar o compromisso com Deus que fizemos lá no começo.",
 "Convido cada família da nossa igreja a separar esses dias, mesmo que seja possível vir apenas em algumas noites. É um tempo precioso de reencontro com Deus antes de encerrarmos mais um ano.",
+"Cada noite terá um foco diferente: segunda-feira falaremos sobre renovar o altar familiar; terça, sobre restaurar relacionamentos feridos; quarta será dedicada inteiramente à oração, sem pregação; e quinta trataremos sobre renovar o compromisso com a igreja local.",
+"<blockquote>&ldquo;Escolhei hoje a quem sirvais... eu e a minha casa serviremos ao Senhor.&rdquo; — Josué 24:15</blockquote>",
 "Teremos ministração especial na sexta-feira, com um convidado da igreja irmã de Suzano. Tragam seus familiares e amigos!",
+"Separem a agenda, avisem os parentes, e venham prontos para um tempo de verdadeira renovação. Cremos que Deus tem algo especial reservado para quem se dispuser a buscá-lo nesses cinco dias.",
 ]),
 
 dict(date="2019-12-22", title="Natal: o Verbo se fez carne", category="Especial", author="Pastor Renato Almeida", comments=10,
 body=[
 "Em poucos dias celebramos o nascimento de Jesus. Em meio às compras, às ceias e à correria de fim de ano, quero convidar cada um de vocês a parar um instante e lembrar o que realmente estamos celebrando: Deus se fez homem para habitar entre nós.",
+"É impressionante pensar que o criador de todas as coisas escolheu entrar na história não como um rei poderoso, cercado de exércitos, mas como um bebê indefeso, nascido numa cidade pequena, de uma família simples, deitado numa manjedoura porque não havia lugar na hospedaria.",
 "<blockquote>&ldquo;E o Verbo se fez carne, e habitou entre nós.&rdquo; — João 1:14</blockquote>",
+"Esse é o coração do Natal: um Deus que não ficou distante, observando de longe, mas que se aproximou o suficiente para sentir fome, cansaço, dor — para entender, por dentro, o que significa ser humano. E é esse mesmo Deus que hoje entende cada luta que você carrega.",
 "Nosso culto de Natal será no dia 24, às 20h, com apresentação especial das crianças da Escola Bíblica Dominical e ceia comunitária logo em seguida. Tragam um prato para compartilhar, se puderem.",
+"Convidamos também, especialmente, quem não tem família por perto para passar essa data — ninguém precisa estar sozinho no Natal enquanto a Rocha Eterna existir. Nossa porta, e nossa mesa, estarão abertas.",
 "Que o Deus que se fez menino em uma manjedoura encha o coração de cada família da Rocha Eterna de paz nesse Natal.",
 ]),
 
@@ -137,8 +148,11 @@ body=[
 dict(date="2020-12-20", title="Natal em tempos difíceis", category="Especial", author="Pastor Renato Almeida", comments=12,
 body=[
 "Este foi, sem dúvida, o ano mais desafiador que a nossa geração já atravessou. Perdemos irmãos queridos, vivemos meses de distanciamento, e ainda assim chegamos ao Natal — e isso, por si só, já é motivo de gratidão.",
+"Não vamos fingir, neste texto, que está tudo bem. Muitas famílias da nossa igreja perderam entes queridos neste ano, outras perderam empregos, outras ainda enfrentam solidão como nunca antes. Seria desonesto celebrar o Natal como se nada disso tivesse acontecido.",
+"E talvez seja justamente por isso que o primeiro Natal aconteça exatamente no contexto que aconteceu: um povo ocupado, cansado, sob domínio estrangeiro, sem muitas razões concretas para esperança. Foi ali, no meio da escuridão real, que a luz nasceu — não depois que as coisas melhoraram.",
 "<blockquote>&ldquo;O povo que andava em trevas viu grande luz.&rdquo; — Isaías 9:2</blockquote>",
-"Nosso culto de Natal será híbrido este ano: um pequeno grupo presencial, com todos os protocolos, e transmissão para quem preferir acompanhar de casa. Que a luz que nasceu em Belém ilumine cada lar da nossa igreja neste fim de ano tão marcado pela dor.",
+"Nosso culto de Natal será híbrido este ano: um pequeno grupo presencial, com todos os protocolos, e transmissão para quem preferir acompanhar de casa. Sei que não é o Natal que gostaríamos de ter, cheio de abraços e salão lotado, mas é o Natal possível — e Deus sabe operar mesmo dentro do possível.",
+"Se este ano te deixou mais cansado do que qualquer outro, você não está sozinho nisso, e não precisa fingir força diante da igreja. Que a luz que nasceu em Belém ilumine cada lar da nossa igreja neste fim de ano tão marcado pela dor.",
 ]),
 
 dict(date="2021-02-14", title="Missão no Vale do Ribeira: relato da viagem", category="Missões", author="Missionária Joana Prado", comments=15,
@@ -151,8 +165,11 @@ body=[
 dict(date="2021-04-04", title="Páscoa 2021: esperança renovada", category="Especial", author="Pastor Renato Almeida", comments=9,
 body=[
 "Mesmo em meio a um ano ainda tão incerto, celebramos hoje a ressurreição de Cristo com o coração cheio de esperança. Se há uma verdade que a Páscoa nos ensina, é que depois do túmulo mais fechado, Deus ainda tem a última palavra.",
-"Tivemos um culto simples nesta manhã, com transmissão on-line para a maior parte da igreja, mas o louvor não foi, de forma alguma, menor do que em anos anteriores.",
-"Que cada família da Rocha Eterna viva, hoje, a certeza de que os dias difíceis não têm a palavra final sobre nossas vidas.",
+"Tivemos um culto simples nesta manhã, com transmissão on-line para a maior parte da igreja, mas o louvor não foi, de forma alguma, menor do que em anos anteriores. Às vezes até parece que, quanto mais apertadas as circunstâncias, mais alto o povo de Deus aprende a cantar.",
+"Pregamos hoje sobre Maria Madalena chorando junto ao túmulo vazio, sem reconhecer, de início, que Jesus estava ali ao seu lado, vivo. Ela estava tão tomada pela dor que confundiu o próprio Senhor com o jardineiro. Quantas vezes, em meio às nossas próprias dores, também deixamos de reconhecer o que Deus já está fazendo bem diante de nós?",
+"<blockquote>&ldquo;Jesus lhe disse: Maria! E, voltando-se ela, disse-lhe: Rabôni!&rdquo; — João 20:16</blockquote>",
+"Foi bonito ver, mesmo através das telas, comentários de irmãos contando o que Deus tem feito em suas vidas mesmo em meio a um ano tão difícil quanto este: empregos que voltaram, saúde restaurada, famílias reconciliadas depois de meses de distância forçada.",
+"Que cada família da Rocha Eterna viva, hoje, a certeza de que os dias difíceis não têm a palavra final sobre nossas vidas. Cristo vive, e por isso, nós também podemos seguir vivendo — com esperança renovada a cada manhã.",
 ]),
 
 dict(date="2021-05-30", title="Batismo nas águas: sete novos irmãos", category="Batismo", author="Diácono Elias Sathler", comments=18,
@@ -198,7 +215,11 @@ body=[
 dict(date="2022-04-17", title="Páscoa 2022", category="Especial", author="Pastor Renato Almeida", comments=8,
 body=[
 "Celebramos hoje mais uma Páscoa já com o salão praticamente cheio, algo que não víamos desde antes da pandemia. Foi emocionante ver tantos rostos conhecidos e também vários visitantes que vieram pela primeira vez.",
+"Depois de dois anos tão marcados por distância — cultos on-line, máscaras, cadeiras espaçadas — havia algo quase palpável no ar hoje de manhã: a alegria simples de estarmos, finalmente, todos juntos outra vez, sem restrição, cantando lado a lado.",
 "O culto de hoje trouxe um convite simples: assim como a pedra foi removida do túmulo, Deus também remove as pedras que insistimos em carregar sozinhos. Ninguém precisa atravessar suas lutas em isolamento — é para isso que existe a igreja.",
+"<blockquote>&ldquo;E, olhando, viram que a pedra, que era muito grande, já estava removida.&rdquo; — Marcos 16:4</blockquote>",
+"Pregamos sobre como, no relato de Marcos, as mulheres já estavam a caminho do túmulo se perguntando quem removeria a pedra para elas — sem saber que, quando chegassem, o problema já estaria resolvido. Muitas vezes gastamos energia demais nos preocupando com pedras que Deus já decidiu remover antes mesmo de sabermos.",
+"Tivemos também, ao final do culto, um pequeno momento de recepção para as famílias que chegaram à igreja nos últimos meses — já são doze novas famílias só neste ano, um sinal claro de que Deus continua trazendo gente para o nosso meio, mesmo depois de um período tão difícil.",
 "Agradecemos a equipe de recepção e de louvor pelo empenho nesta manhã tão especial.",
 ]),
 
@@ -229,14 +250,20 @@ body=[
 dict(date="2024-05-12", title="Dia das Mães na Rocha Eterna", category="Especial", author="Irmã Cláudia Freitas", comments=11,
 body=[
 "Neste domingo homenageamos todas as mães da nossa igreja com um culto especial, seguido de um café da manhã reforçado preparado pelos próprios homens da igreja — como já é tradição há alguns anos.",
+"A decoração deste ano ficou por conta das próprias adolescentes da igreja, que passaram a tarde de sábado enfeitando o salão com flores de papel e faixas escritas à mão. O capricho de cada detalhe já valia a homenagem por si só.",
 "Cada mãe presente recebeu uma lembrancinha feita pelas crianças da Escola Bíblica Dominical, e tivemos um momento emocionante de oração por todas as mães, inclusive as que já partiram e as que ainda esperam para ser mães um dia.",
+"<blockquote>&ldquo;Muitas mulheres procederam virtuosamente; porém tu a todas sobrepujas.&rdquo; — Provérbios 31:29</blockquote>",
+"Convidamos três mães da igreja para compartilhar brevemente sua caminhada — uma delas, mãe de primeira viagem depois de anos de espera, emocionou o salão inteiro ao testemunhar sobre a longa jornada até a chegada do seu bebê.",
 "Foi uma manhã de muito carinho e gratidão. Deus abençoe cada mãe da nossa comunidade!",
 ]),
 
 dict(date="2024-12-24", title="Véspera de Natal: uma luz na escuridão", category="Especial", author="Pastor Renato Almeida", comments=13,
 body=[
 "Mais um ano se encerra, e nos reunimos hoje à noite para celebrar o nascimento daquele que é chamado &ldquo;Deus Conosco&rdquo;. Foi uma noite bonita, com o salão decorado pelas próprias famílias da igreja e uma apresentação linda das crianças.",
+"Chegamos cedo para os últimos preparativos, e o cheiro de canela e cravo das ceias que as irmãs já começavam a organizar na cozinha tomava conta de todo o salão antes mesmo do culto começar. São esses detalhes simples que fazem o Natal da Rocha Eterna ter cara de família.",
 "<blockquote>&ldquo;E a luz resplandece nas trevas, e as trevas não prevaleceram contra ela.&rdquo; — João 1:5</blockquote>",
+"Pregamos hoje sobre como a primeira notícia do nascimento de Jesus não foi dada a reis ou sacerdotes, mas a pastores simples, no meio da noite, cuidando do próprio rebanho. Deus continua, até hoje, se revelando primeiro aos simples e aos que estão vigiando, e não necessariamente aos mais importantes.",
+"Encerramos com a tradicional troca de velas: cada família acendeu sua vela a partir da vela do altar, até que o salão inteiro estivesse iluminado apenas por essas pequenas chamas — uma imagem bonita de como a luz de Cristo se espalha, pessoa a pessoa.",
 "Que essa luz ilumine cada canto escuro que ainda carregamos — nossas famílias, nossas cidades, e sim, também aqueles que caminham longe da nossa comunhão neste momento. Feliz Natal, igreja!",
 ]),
 
@@ -256,6 +283,177 @@ body=[
 "Seguimos firmes no propósito de sempre: ser uma comunidade de fé, cura e restauração para quem quer que Deus traga até nós — hoje, e nos anos que ainda virão.",
 ]),
 ]
+
+# ---------------------------------------------------------------------------
+# RECURRING ANNUAL POSTS (Jejum de Daniel, Semana Santa, Páscoa, Pentecostes,
+# Dia das Mães, Dia dos Pais, Dia da Reforma, Virada de Ano) — generated
+# programmatically for every applicable year so every Christian-calendar
+# date in the church year is covered, 2019-2026.
+# ---------------------------------------------------------------------------
+import datetime as _dt
+import calendar as _cal
+
+TODAY = _dt.date(2026, 7, 31)
+BLOG_START = _dt.date(2019, 3, 10)
+
+EASTER = {  # Western Easter Sunday, real dates
+    2019: _dt.date(2019, 4, 21), 2020: _dt.date(2020, 4, 12),
+    2021: _dt.date(2021, 4, 4),  2022: _dt.date(2022, 4, 17),
+    2023: _dt.date(2023, 4, 9),  2024: _dt.date(2024, 3, 31),
+    2025: _dt.date(2025, 4, 20), 2026: _dt.date(2026, 4, 5),
+}
+
+def _nth_weekday(year, month, weekday, n):
+    """n-th (1-indexed) given weekday (0=Mon..6=Sun) of a month."""
+    c = _cal.Calendar()
+    days = [d for d in c.itermonthdates(year, month) if d.month == month and d.weekday() == weekday]
+    return days[n - 1]
+
+YEAR_NOTE = {
+2019: "Este ano marcou o início deste blog e uma fase de crescimento constante para a nossa igreja, ainda pequena mas cheia de vida.",
+2020: "Vivemos boa parte deste ano à distância, com as reuniões acontecendo por transmissão on-line por causa da pandemia — e mesmo assim, Deus continuou trabalhando no meio de nós.",
+2021: "Foi um ano de muitas mudanças na igreja, inclusive com a partida da irmã Vera Lúcia para seu tempo de retiro no fim de agosto, algo que ainda sentimos no meio de nós.",
+2022: "Já em recuperação plena dos anos mais difíceis da pandemia, vimos a igreja crescer em número e em profundidade espiritual, mesmo guardando no coração a ausência de quem caminhou longe.",
+2023: "Um ano de reformas físicas no salão social e também de reafirmação, como igreja, do nosso compromisso com a Palavra e com a comunhão uns com os outros.",
+2024: "Um ano de estabilidade e de novas famílias se somando à Rocha Eterna, sinal de que Deus continua trazendo gente para o nosso meio.",
+2025: "Já são quase quatro anos desde a partida da irmã Vera, e seguimos, como sempre dissemos, de portas e coração abertos.",
+2026: "Seguimos firmes neste novo ano, com o coração voltado para o que Deus ainda quer fazer no meio do nosso povo.",
+}
+
+ATTEND_BASE = {2019: 60, 2020: 35, 2021: 50, 2022: 90, 2023: 110, 2024: 130, 2025: 145, 2026: 150}
+
+AUTHORS_BY_ERA = {
+"jejum": "Pastor Renato Almeida",
+"semana-santa": "Pastor Renato Almeida",
+"pascoa": "Pastor Renato Almeida",
+"pentecostes": "Vera Lúcia Nascimento",
+"maes": "Irmã Cláudia Freitas",
+"pais": "Diácono Elias Sathler",
+"reforma": "Pastor Renato Almeida",
+"virada": "Pastor Renato Almeida",
+}
+
+def _author_for(theme, year):
+    if theme == "pentecostes":
+        if year <= 2020:
+            return "Vera Lúcia Nascimento"
+        elif year <= 2024:
+            return "Pastor Renato Almeida"
+        else:
+            return "Jovem Lucas Ferreira"
+    return AUTHORS_BY_ERA[theme]
+
+def _comment_count(theme, year):
+    base = ATTEND_BASE[year] // 6
+    bump = {"pascoa": 6, "virada": 5, "reforma": -3, "jejum": -2, "pentecostes": 2}.get(theme, 0)
+    return max(4, base + bump)
+
+RECURRING = []
+
+def add_recurring(date, title, category, theme):
+    if date < BLOG_START or date > TODAY:
+        return
+    RECURRING.append(dict(
+        date=date.isoformat(), title=title, category=category,
+        author=_author_for(theme, date.year), comments=_comment_count(theme, date.year),
+        body=_theme_body(theme, date.year),
+    ))
+
+def _theme_body(theme, year):
+    note = YEAR_NOTE[year]
+    n = ATTEND_BASE[year]
+    if theme == "jejum":
+        return [
+        "Como já é tradição na Rocha Eterna, iniciamos neste mês os 21 dias do Jejum de Daniel — um tempo de consagração baseado em Daniel 10, quando o profeta se absteve de carnes e guloseimas por três semanas enquanto buscava uma resposta do Senhor.",
+        "Cada família participa do jeito que consegue: alguns optam por retirar carnes e doces da alimentação, outros escolhem um jejum parcial de determinados horários do dia, e há quem prefira jejuar de redes sociais e entretenimento. O importante, sempre reforçamos, não é a forma exata, mas o coração voltado para Deus.",
+        "Durante essas três semanas, teremos encontros de oração todas as terças e quintas-feiras, às 19h30, além de um grupo no aplicativo de mensagens para compartilharmos versículos e pedidos de oração diariamente.",
+        "<blockquote>&ldquo;Não comi manjar desejável, nem carne nem vinho entraram na minha boca, nem me untei com óleo, até que se cumpriram as três semanas inteiras.&rdquo; — Daniel 10:3</blockquote>",
+        f"Neste ano, já contamos com cerca de {n} pessoas inscritas para acompanhar o jejum em algum formato — um número que só cresce a cada ano, e que mostra a fome espiritual do nosso povo.",
+        note,
+        "Que estas três semanas sejam de fato um tempo separado para buscarmos a Deus com mais intensidade, preparando o coração para tudo o que Ele quer fazer neste novo ano que se inicia.",
+        ]
+    if theme == "semana-santa":
+        return [
+        "Entramos esta semana na Semana Santa, os dias que antecedem a maior celebração do calendário cristão. Teremos reflexões todas as noites, de segunda a sexta, às 20h, cada uma voltada para um aspecto da paixão de Cristo.",
+        "Na quinta-feira, seguindo a tradição, faremos uma cerimônia simples de lava-pés, relembrando o exemplo de serviço que Jesus deixou aos discípulos na última ceia. É sempre um momento de muita quebrantamento no meio da igreja.",
+        "Já a sexta-feira será dedicada inteiramente à cruz — um culto mais silencioso, sem os louvores animados de costume, para contemplarmos com seriedade o preço que foi pago por nós.",
+        "<blockquote>&ldquo;Mas ele foi ferido pelas nossas transgressões, e moído pelas nossas iniquidades.&rdquo; — Isaías 53:5</blockquote>",
+        "Convidamos cada família a separar essa semana, mesmo que a rotina esteja corrida. São poucos dias no ano em que paramos de verdade para olhar para a cruz antes de celebrarmos a ressurreição no domingo.",
+        note,
+        ]
+    if theme == "pascoa":
+        return [
+        "Chegamos ao domingo mais importante do calendário cristão: o dia em que celebramos que a morte não teve a última palavra sobre Jesus — e, por extensão, também não tem sobre nós.",
+        f"O salão estava especialmente cheio nesta manhã, com muitos visitantes trazidos por membros da igreja. Contabilizamos cerca de {n} pessoas presentes entre os dois horários de culto.",
+        "As crianças da Escola Bíblica Dominical apresentaram uma pequena dramatização sobre o túmulo vazio, e não faltaram lágrimas — de alegria — entre os pais que assistiam.",
+        "<blockquote>&ldquo;Por que buscais entre os mortos aquele que vive? Não está aqui, mas ressuscitou.&rdquo; — Lucas 24:5-6</blockquote>",
+        "Se você carrega hoje algum &ldquo;túmulo fechado&rdquo; em sua vida — um sonho que parece morto, um relacionamento que parece sem solução, uma dor que insiste em não passar — a mensagem da Páscoa é simples e poderosa: o mesmo Deus que reverteu o maior de todos os fins ainda está no controle do seu recomeço.",
+        note,
+        "Que a certeza da ressurreição sustente cada família da Rocha Eterna até a próxima vez que nos reunirmos.",
+        ]
+    if theme == "pentecostes":
+        return [
+        "Hoje celebramos o Domingo de Pentecostes, cinquenta dias após a Páscoa — a data em que relembramos a descida do Espírito Santo sobre os discípulos reunidos no cenáculo, conforme relata Atos capítulo 2.",
+        "Como igreja que cremos e vivemos o batismo no Espírito Santo como uma experiência atual, este é sempre um dos cultos mais fortes do nosso calendário. Tivemos um tempo estendido de louvor e ministração no altar, com muitas pessoas buscando uma experiência renovada com o Espírito.",
+        "Vimos, mais uma vez, manifestações visíveis da presença de Deus — louvor espontâneo, línguas estranhas, palavras proféticas ministradas com cuidado e testadas à luz da Palavra, como sempre orientamos.",
+        "<blockquote>&ldquo;E todos foram cheios do Espírito Santo, e começaram a falar em outras línguas, conforme o Espírito lhes concedia que falassem.&rdquo; — Atos 2:4</blockquote>",
+        "Para quem talvez ainda não tenha vivido essa experiência: ela não é reservada a poucos &ldquo;espirituais&rdquo; demais. A promessa do Pai é, segundo a própria Escritura, para todo aquele que crê e busca.",
+        note,
+        "Seguimos cremos que o mesmo Espírito que capacitou a igreja primitiva continua disponível, hoje, para capacitar a Rocha Eterna a viver e anunciar o evangelho com poder.",
+        ]
+    if theme == "maes":
+        return [
+        "Neste domingo separamos um momento especial do culto para homenagear todas as mães da nossa igreja — as que já criaram seus filhos, as que ainda estão nessa caminhada, e também aquelas que, mesmo sem filhos biológicos, exercem um papel maternal na vida de tantos aqui dentro.",
+        "Como já é tradição, os homens da igreja prepararam um café da manhã reforçado para recebê-las antes do culto, e as crianças da Escola Bíblica Dominical entregaram lembrancinhas feitas à mão durante a semana.",
+        "Tivemos um momento de oração coletiva por todas as mães presentes, e também — com muito cuidado — por aquelas que enfrentam a maternidade em meio a dificuldades, ou que ainda esperam para ser mães um dia.",
+        "<blockquote>&ldquo;Muitas mulheres procederam virtuosamente; porém tu a todas sobrepujas.&rdquo; — Provérbios 31:29</blockquote>",
+        "É sempre uma manhã de muito carinho na Rocha Eterna. Agradecemos a cada mãe que, com paciência e amor, tem moldado a próxima geração da nossa igreja.",
+        note,
+        ]
+    if theme == "pais":
+        return [
+        "Neste domingo foi a vez de homenagearmos os pais da nossa igreja, com um culto mais leve e descontraído, seguido de um almoço de confraternização no pátio.",
+        "Convidamos alguns dos pais mais antigos da igreja para compartilhar, brevemente, uma palavra sobre o que aprenderam ao longo dos anos criando seus filhos na fé — foram testemunhos simples, mas que tocaram bastante o coração de todos.",
+        "Também oramos por aqueles que enfrentam a paternidade sozinhos, pelos que sonham em ser pais um dia, e pelos que, por algum motivo, vivem hoje distantes de seus filhos.",
+        "<blockquote>&ldquo;Como um pai se compadece de seus filhos, assim o Senhor se compadece daqueles que o temem.&rdquo; — Salmos 103:13</blockquote>",
+        "Que cada pai da Rocha Eterna continue sendo, na sua casa, um reflexo — ainda que imperfeito — do cuidado do nosso Pai celestial.",
+        note,
+        ]
+    if theme == "reforma":
+        return [
+        "Hoje, 31 de outubro, relembramos o Dia da Reforma Protestante — a data em que, em 1517, o monge Martinho Lutero afixou suas 95 teses na porta da igreja de Wittenberg, questionando práticas da igreja da época e resgatando verdades bíblicas que haviam sido, de certa forma, deixadas de lado.",
+        "Como igreja evangélica, somos herdeiros diretos daquele movimento — em especial de dois princípios que seguimos até hoje: que a salvação vem pela graça, mediante a fé, e não por méritos próprios; e que a Bíblia, e não a tradição humana, é a nossa autoridade máxima.",
+        "<blockquote>&ldquo;Porque pela graça sois salvos, por meio da fé; e isto não vem de vós, é dom de Deus.&rdquo; — Efésios 2:8</blockquote>",
+        "Na reunião de quarta-feira desta semana, fizemos um breve resgate histórico da Reforma e conversamos sobre como esses princípios, descobertos há mais de 500 anos, ainda moldam a forma como lemos a Bíblia e vivemos a fé hoje.",
+        "Vale lembrar: a Reforma não foi um evento único e encerrado — é um lembrete permanente de que a igreja sempre precisa voltar às Escrituras, examinar suas próprias tradições, e se deixar corrigir por elas quando necessário.",
+        note,
+        ]
+    if theme == "virada":
+        return [
+        f"Mais um ano se encerra, e nos reunimos hoje à noite para o nosso tradicional Culto de Virada, que vai até a meia-noite, atravessando {year} e entrando em {year+1} já em oração.",
+        "Cada família que quis teve a oportunidade de compartilhar, brevemente, um motivo de gratidão dos últimos doze meses — e, como sempre acontece, ouvimos histórias de cura, provisão financeira, restauração de relacionamentos e também de perseverança em meio a dificuldades que não foram resolvidas, mas atravessadas com fé.",
+        "<blockquote>&ldquo;As misericórdias do Senhor são a causa de não sermos consumidos, porque as suas misericórdias não têm fim; renovam-se cada manhã.&rdquo; — Lamentações 3:22-23</blockquote>",
+        note,
+        f"Encerramos o ano com uma certeza simples, mas que sustenta a Rocha Eterna desde 2013: o mesmo Deus que foi fiel em {year} será fiel também no ano que se inicia. Feliz Ano Novo, igreja!",
+        ]
+    return []
+
+for _y in range(2019, 2027):
+    add_recurring(_dt.date(_y, 1, 6), f"Jejum de Daniel {_y}: 21 dias de busca", "Especial", "jejum")
+    add_recurring(EASTER[_y] - _dt.timedelta(days=6), f"Semana Santa {_y}: os dias que antecedem a cruz", "Especial", "semana-santa")
+    add_recurring(EASTER[_y] + _dt.timedelta(days=49) - (_dt.timedelta(days=1) if _y == 2025 else _dt.timedelta(days=0)),
+                  f"Pentecostes {_y}: o batismo no Espírito Santo", "Culto", "pentecostes")
+    add_recurring(_nth_weekday(_y, 8, 6, 2), f"Dia dos Pais {_y}", "Especial", "pais")
+    add_recurring(_dt.date(_y, 10, 31), f"Dia da Reforma {_y}: relembrando as 95 teses", "Estudo Bíblico", "reforma")
+    add_recurring(_dt.date(_y, 12, 31), f"Culto de Virada: encerrando {_y}", "Vigília", "virada")
+    if _y != 2024:
+        add_recurring(_nth_weekday(_y, 5, 6, 2), f"Dia das Mães {_y}", "Especial", "maes")
+
+for _y in (2020, 2023, 2024, 2025, 2026):
+    add_recurring(EASTER[_y], f"Páscoa {_y}", "Especial", "pascoa")
+
+POSTS.extend(RECURRING)
+POSTS.sort(key=lambda p: p["date"])
 
 PAGES_NAV = [
     ("index.html", "Início"),
@@ -365,6 +563,84 @@ def page_shell(title, active, body_html, depth_prefix="", extra_head=""):
 </body>
 </html>"""
 
+import hashlib
+
+COMMENTER_NAMES = [
+"Marlene Aparecida", "Zé Carlos", "Rosa Helena", "Sebastião Nunes", "Neuza Aparecida",
+"Osvaldo Pereira", "Terezinha Souza", "Aparecida Lima", "Benedito Ferreira", "Ivone Cardoso",
+"Geraldo Bispo", "Conceição Alves", "Waldemar Sathler", "Dulce Maria", "Antônio Ribeiro",
+"Creuza dos Santos", "Joaquim Batista", "Lourdes Martins", "Edvaldo Costa", "Zenaide Rocha",
+"Nilza Barbosa", "Reginaldo Prado", "Vanda Freitas", "Adalberto Nunes", "Iracema Gomes",
+"Cícero Almeida", "Sonia Regina", "Valdir Souza", "Marlete Cordeiro", "Amauri José",
+]
+
+COMMENT_TEXTS = [
+"Amém!!! Deus continue abençoando a nossa igreja.",
+"Glória a Deus por essa palavra! Foi exatamente o que eu precisava ouvir hoje.",
+"Que bênção, Pastor! Deus abençoe grandemente.",
+"Amém e amém! Estava lá e foi realmente especial.",
+"Deus é fiel! Amém irmãos, vamos em frente.",
+"Fiquei muito emocionada lendo isso. Deus abençoe a todos vocês.",
+"Parabéns pela postagem, que Deus continue no controle de tudo.",
+"Amém, Senhor! Glória ao Seu nome.",
+"Que Deus continue usando essa igreja de forma tão poderosa. Amém!",
+"Muito abençoador, obrigada por compartilhar!",
+"Deus abençoe ricamente a vida de cada um que participou.",
+"Amém! Ficarei orando também.",
+"Que maravilha, Deus é maravilhoso em tudo o que faz. Amém!",
+"Estava ali e posso confirmar, foi um culto poderoso demais.",
+"Só posso dizer amém e glória a Deus pela nossa igreja.",
+"Muito boa a reflexão, Deus continue abençoando o ministério de vocês.",
+"Amém! Que o Senhor continue guiando os passos da Rocha Eterna.",
+"Emocionante like sempre. Deus abençoe a todos.",
+"Glória a Deus, li e já orei junto. Amém irmãos.",
+"Deus é tremendo! Obrigada por compartilhar essa bênção com a gente.",
+"Amém, que venham mais momentos assim!",
+"Fiquei com o coração quentinho lendo essa postagem. Deus abençoe.",
+"Que o Senhor continue derramando as Suas bênçãos sobre essa igreja. Amém!",
+"Muito bom! Deus é bom o tempo todo, e o tempo todo Deus é bom.",
+"Amém, Pastor! Sempre uma palavra na hora certa.",
+"Que Deus continue te usando, Vera! Sentimos sua falta no ministério. (comentário antigo)",
+"Glória a Deus, esperando ansiosa pelo próximo culto.",
+"Amém, essa igreja é uma benção na minha vida e da minha família.",
+"Muito lindo esse relato, Deus seja louvado!",
+"Deus abençoe a liderança e cada obreiro envolvido. Amém!",
+]
+
+def _seeded_rng(seed_text):
+    h = hashlib.sha256(seed_text.encode('utf-8')).hexdigest()
+    return int(h, 16)
+
+def get_comments(slug, count):
+    shown = min(count, 8)
+    seed = _seeded_rng(slug)
+    names_idx = [(seed >> (i * 5)) % len(COMMENTER_NAMES) for i in range(shown)]
+    texts_idx = [(seed >> (i * 7 + 3)) % len(COMMENT_TEXTS) for i in range(shown)]
+    day_offsets = sorted([1 + ((seed >> (i * 3 + 1)) % 6) for i in range(shown)])
+    comments = []
+    for i in range(shown):
+        comments.append((COMMENTER_NAMES[names_idx[i]], COMMENT_TEXTS[texts_idx[i]], day_offsets[i]))
+    return comments
+
+def render_comments(p):
+    count = p["comments"]
+    comments = get_comments(slugify(p["title"]), count)
+    base_date = _dt.date.fromisoformat(p["date"])
+    items = []
+    for name, text, offset in comments:
+        cdate = base_date + _dt.timedelta(days=offset)
+        items.append(f"""<div class="comment-item">
+      <div class="comment-meta"><strong>{name}</strong> &middot; {fmt_date(cdate.isoformat())}</div>
+      <div class="comment-text">{text}</div>
+    </div>""")
+    more = count - len(comments)
+    more_line = f'<p class="comments-more">+ {more} outros comentários</p>' if more > 0 else ""
+    return f"""<section class="comments-section">
+  <h2>{count} comentários</h2>
+  {''.join(items)}
+  {more_line}
+</section>"""
+
 def render_post(p, idx):
     slug = slugify(p["title"])
     body = "\n".join(f"<p>{para}</p>" if not para.strip().startswith("<blockquote") else para for para in p["body"])
@@ -376,7 +652,8 @@ def render_post(p, idx):
     {body}
   </div>{hidden}
   <div class="post-footer"><span>{p['comments']} comentarios</span><span><a href="../index.html">&laquo; Voltar ao inicio</a></span></div>
-</article>"""
+</article>
+{render_comments(p)}"""
     html = page_shell(p["title"], "posts", body_html, depth_prefix="../")
     with open(os.path.join(POSTS_DIR, slug + ".html"), "w", encoding="utf-8") as f:
         f.write(html)
@@ -463,6 +740,16 @@ STATIC_PAGES = {
 <strong>E-mail:</strong> contato@rochaeterna.exemplo.br<br>
 <strong>Secretaria:</strong> atendimento de terca a sexta, das 14h as 18h</p>
 <p>Voce tambem pode deixar um comentario em qualquer postagem do blog &mdash; a nossa equipe responde assim que possivel.</p>
+<h3>Envie uma mensagem</h3>
+<form method="POST" action="/enviar-contato" class="contact-form">
+  <label for="nome">Nome</label>
+  <input type="text" id="nome" name="nome" required>
+  <label for="email">Seu e-mail</label>
+  <input type="email" id="email" name="email" required>
+  <label for="mensagem">Mensagem</label>
+  <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+  <button type="submit">Enviar mensagem</button>
+</form>
 """),
 }
 

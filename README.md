@@ -1,8 +1,11 @@
 # Comunidade Cristã Rocha Eterna — site do blog
 
 Site estático estilo "Blogger antigo" para a igreja fictícia **Comunidade Cristã
-Rocha Eterna**, com 30 postagens datadas de março de 2019 a julho de 2026, mais
-páginas institucionais (Sobre Nós, Nossa Missão, Liderança, Contato, Arquivo).
+Rocha Eterna**, com 86 postagens datadas de março de 2019 a julho de 2026 —
+incluindo posts recorrentes anuais (Jejum de Daniel, Semana Santa, Páscoa,
+Pentecostes, Dia das Mães, Dia dos Pais, Dia da Reforma, Culto de Virada) —
+mais páginas institucionais (Sobre Nós, Nossa Missão, Liderança, Contato,
+Arquivo) e comentários visíveis em cada post.
 
 Todo o conteúdo publicável está em `public/` — é esse é o diretório que vai para
 produção.
@@ -26,6 +29,14 @@ ARG_NOTES.md             notas privadas sobre as pistas escondidas (NÃO publica
 Não edite os arquivos dentro de `public/posts/` diretamente — eles são gerados.
 Em vez disso, edite a lista `POSTS` em `gen.py` (título, data, autor, categoria,
 corpo do texto, `hidden_comment` opcional) e rode:
+
+Os posts recorrentes anuais (Jejum de Daniel, Semana Santa, Páscoa,
+Pentecostes, Dia das Mães, Dia dos Pais, Dia da Reforma, Virada de Ano) não
+estão na lista `POSTS` — são gerados automaticamente pela função
+`_theme_body()` mais abaixo no arquivo. Para editar o texto-base de um desses
+temas, mexa ali; para editar só um ano específico, adicione uma exceção
+dentro de `_theme_body()` ou copie o post gerado para a lista `POSTS` manual
+e remova a chamada `add_recurring(...)` correspondente.
 
 ```bash
 python3 gen.py

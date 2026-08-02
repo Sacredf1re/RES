@@ -67,6 +67,23 @@ antes do rodapé. Um jogador que abrir "Ver código-fonte da página" encontra.
    Decodifica para: *"As citações erradas não foram um erro. Junte os
    números."* (a chave que aponta para a seção 2 acima)
 
+## 3.5 O "haystack" (posts recorrentes + comentários)
+
+Para dificultar achar as pistas acima, o site agora tem **86 posts** no
+total: além dos 30 originais, foram adicionados posts recorrentes anuais
+(Jejum de Daniel em janeiro, Semana Santa, Páscoa, Pentecostes, Dia das
+Mães, Dia dos Pais, Dia da Reforma em outubro, Culto de Virada em
+dezembro) para praticamente todos os anos de 2019 a 2026. Nenhum desses
+posts extras contém pistas — são só volume de conteúdo real e datado
+para as 5 anomalias e os 3 comentários ocultos ficarem mais difíceis de
+encontrar em meio ao resto. Eles são gerados por `_theme_body()` em
+`gen.py` (não editados manualmente).
+
+Cada post também agora exibe comentários visíveis (nomes fictícios +
+frases genéricas tipo "Amém", "Glória a Deus", "Que bênção") selecionados
+de forma determinística a partir do título do post — puramente estética,
+sem pistas escondidas nos comentários.
+
 ## 4. Como estender
 
 - `gen.py` é a fonte da verdade — edite a lista `POSTS` (campo

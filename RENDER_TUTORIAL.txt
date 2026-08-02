@@ -1,0 +1,166 @@
+======================================================================
+ HOW TO PUBLISH "COMUNIDADE CRISTA ROCHA ETERNA" ON RENDER
+======================================================================
+
+This site is a static site (plain HTML/CSS, no server code needed).
+Render can host it for free as a "Static Site". Below are two ways
+to do it: the easy dashboard way (recommended) and the automatic
+Blueprint way (using the included render.yaml).
+
+You will need:
+  - A free Render account: https://render.com
+  - A free GitHub (or GitLab/Bitbucket) account, since Render deploys
+    from a Git repository, not from a zip upload.
+
+----------------------------------------------------------------------
+STEP 1 - PUT THE PROJECT ON GITHUB
+----------------------------------------------------------------------
+1. Unzip the project you received (comunidade-rocha-eterna.zip).
+   You should see a folder called "rocha-eterna" containing:
+     public/        <- the actual website files
+     gen.py         <- script that generates the site
+     render.yaml    <- Render configuration
+     README.md
+     ARG_NOTES.md   <- keep this one PRIVATE, do not publish it
+
+2. Go to https://github.com and log in (or create an account).
+
+3. Click the "+" icon (top right) -> "New repository".
+   - Name it something like: rocha-eterna-site
+   - Set it to Public or Private (either works for Render).
+   - Do NOT initialize with a README (you already have one).
+   - Click "Create repository".
+
+4. On the new repo's page, GitHub shows you commands. The easiest
+   way if you're not used to Git: click "uploading an existing file"
+   (a link shown on the empty repo page) and drag the WHOLE
+   "rocha-eterna" folder contents into the browser upload box.
+   Commit the changes.
+
+   (If you ARE used to Git/terminal, the normal way is:
+      cd rocha-eterna
+      git init
+      git add .
+      git commit -m "primeira versao do site"
+      git branch -M main
+      git remote add origin https://github.com/SEU-USUARIO/rocha-eterna-site.git
+      git push -u origin main
+   )
+
+----------------------------------------------------------------------
+STEP 2 - CREATE THE STATIC SITE ON RENDER (dashboard method)
+----------------------------------------------------------------------
+1. Log in to https://dashboard.render.com
+
+2. Click "New +" (top right) -> "Static Site".
+
+3. Connect your GitHub account if you haven't already, then select
+   the repository you just created (rocha-eterna-site).
+
+4. Fill in the settings:
+     Name:              comunidade-crista-rocha-eterna (or anything)
+     Branch:             main
+     Root Directory:     (leave blank)
+     Build Command:      (leave blank / empty)
+     Publish Directory:  public
+
+   IMPORTANT: "Publish Directory" must be exactly:  public
+   That's the folder that contains index.html, css/, posts/, etc.
+
+5. Click "Create Static Site".
+
+6. Wait 1-2 minutes. Render will show build logs, then give you a
+   live URL, something like:
+     https://comunidade-crista-rocha-eterna.onrender.com
+
+7. Open that URL - your church blog is now live.
+
+----------------------------------------------------------------------
+STEP 2 (ALTERNATIVE) - USING render.yaml (Blueprint method)
+----------------------------------------------------------------------
+The project already includes a render.yaml file that describes the
+same configuration as above. If you prefer the automatic route:
+
+1. Make sure render.yaml is at the ROOT of your GitHub repo (same
+   level as the "public" folder).
+
+2. In the Render dashboard: "New +" -> "Blueprint".
+
+3. Select your repository. Render will detect render.yaml and
+   propose the static site configuration automatically.
+
+4. Click "Apply" / "Create". Wait for the deploy to finish.
+
+Note: Render's Blueprint syntax can change over time. If this method
+fails or looks different from what's described here, just use the
+manual dashboard method in STEP 2 above - it always works and takes
+about the same time.
+
+----------------------------------------------------------------------
+STEP 3 - UPDATING THE SITE LATER (new posts, edits, etc.)
+----------------------------------------------------------------------
+Never edit the files inside public/posts/ by hand - they are
+generated automatically. To add or change a post:
+
+1. Open gen.py in a text editor.
+
+2. Find the "POSTS" list near the top. Each post looks like this:
+
+     dict(date="2019-06-02", title="Testemunho: a cura...",
+          category="Testemunho", author="Vera Lucia Nascimento",
+          comments=22,
+          body=[
+            "First paragraph...",
+            "Second paragraph...",
+          ]),
+
+   To add a new post, copy one of these blocks, change the date,
+   title, category, author and body text, and add it to the list
+   (order in the list doesn't matter - the script sorts by date
+   automatically).
+
+   To edit an existing post, just change its text in place.
+
+3. Save gen.py, then regenerate the site:
+
+     python3 gen.py
+
+   This rewrites everything inside public/ (index, archive, and all
+   post pages) to match your changes.
+
+4. Upload the changed files to GitHub again:
+   - Easiest: go to your repo on GitHub, use "Add file" ->
+     "Upload files", drag the updated "public" folder contents in,
+     and commit.
+   - Or with Git in a terminal:
+       git add .
+       git commit -m "novo post"
+       git push
+
+5. Render automatically detects the push and redeploys the site
+   within a minute or two - no need to touch the Render dashboard
+   again once it's connected to your repo.
+
+----------------------------------------------------------------------
+TROUBLESHOOTING
+----------------------------------------------------------------------
+- Blank page or CSS not loading:
+    Double-check "Publish Directory" is set to "public" (not the
+    repo root, and not "rocha-eterna").
+
+- "Build failed" with no real build:
+    Leave "Build Command" completely empty - this site needs no
+    build step, it's already plain HTML.
+
+- Changes not showing up after a push:
+    Check the "Events" / "Logs" tab on your Render service to
+    confirm a new deploy actually started. Render deploys can take
+    a minute; also try a hard-refresh (Ctrl+Shift+R) in your browser.
+
+- Want a custom domain (e.g. rochaeterna.com.br) instead of the
+  onrender.com address:
+    In the Render dashboard, open your static site -> "Settings" ->
+    "Custom Domains", and follow Render's instructions to point your
+    domain's DNS at Render.
+
+======================================================================
