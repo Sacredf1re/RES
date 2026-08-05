@@ -665,9 +665,13 @@ def render_post(p, idx):
     body_html = f"""<article class="post">
   <h1 class="post-title">{p['title']}</h1>
   <div class="post-meta"><span class="tag">{p['category']}</span> Publicado por {p['author']} em {fmt_date(p['date'])}</div>
-  <div class="post-body">
+<div class="post-body">
     {body}
-  </div>{hidden}
+</div>
+
+{('<div id="donate-widget"></div><script src="https://resp-ynuy.onrender.com/widget.js"></script>' if p["title"] == "Um pedido de oração urgente: nossa igreja foi atingida por um incêndio" else "")}
+
+{hidden}
   <div class="post-footer"><span>{p['comments']} comentarios</span><span><a href="../index.html">&laquo; Voltar ao inicio</a></span></div>
 </article>
 {render_comments(p)}"""
