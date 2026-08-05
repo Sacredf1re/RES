@@ -84,6 +84,30 @@ frases genéricas tipo "Amém", "Glória a Deus", "Que bênção") selecionados
 de forma determinística a partir do título do post — puramente estética,
 sem pistas escondidas nos comentários.
 
+## 3.5 O "haystack" (posts recorrentes + comentários + orações mensais)
+
+O site agora tem **184 posts** no total. Além do haystack já descrito acima,
+foram adicionados:
+- **Orações mensais**: um post por mês, todo mês, de março/2019 a agosto/2026
+  (~96 posts), cada um com um tema fixo por mês do calendário (ex.: janeiro é
+  sempre "um novo começo", outubro é sempre "pela sã doutrina"). Gerados por
+  `_oracao_body()` em `gen.py`.
+- **Posts de excursão** (convite para viagens/retiros, com e-mail de contato
+  `viagens@rochaeterna.exemplo.br`) e **posts de doação/ação social** (com
+  e-mail `acaosocial@rochaeterna.exemplo.br` e telefone fictício
+  `(11) 4002-8922`) — hand-written no final da lista `POSTS`.
+- Um **post em branco** ("[rascunho — em edição]", 2026-08-06) reservado para
+  o usuário editar diretamente.
+- Toda a autoria exibida no site foi simplificada para sempre mostrar
+  **"Pastor Renato Almeida"**, independentemente de quem "escreveu" o post
+  internamente (o campo `author` no dicionário de cada post ainda existe em
+  alguns lugares mas não é mais exibido — a constante `DISPLAY_AUTHOR` em
+  `gen.py` controla isso). Isso inclui os posts do próprio fio da Vera Lúcia
+  e da Cláudia — a decisão foi confirmada explicitamente pelo usuário mesmo
+  sabendo que isso apaga a "voz" individual desses personagens no site
+  publicado (o conteúdo e a autoria original continuam nos comentários do
+  código-fonte de `gen.py`, só não aparecem mais no HTML final).
+
 ## 4. Como estender
 
 - `gen.py` é a fonte da verdade — edite a lista `POSTS` (campo

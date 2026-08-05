@@ -1,11 +1,13 @@
 # Comunidade Cristã Rocha Eterna — site do blog
 
 Site estático estilo "Blogger antigo" para a igreja fictícia **Comunidade Cristã
-Rocha Eterna**, com 86 postagens datadas de março de 2019 a julho de 2026 —
+Rocha Eterna**, com 184 postagens datadas de março de 2019 a agosto de 2026 —
 incluindo posts recorrentes anuais (Jejum de Daniel, Semana Santa, Páscoa,
-Pentecostes, Dia das Mães, Dia dos Pais, Dia da Reforma, Culto de Virada) —
-mais páginas institucionais (Sobre Nós, Nossa Missão, Liderança, Contato,
-Arquivo) e comentários visíveis em cada post.
+Pentecostes, Dia das Mães, Dia dos Pais, Dia da Reforma, Culto de Virada),
+uma oração temática por mês desde o início do blog, posts de excursão e de
+ação social, e um post em branco pronto para edição — mais páginas
+institucionais (Sobre Nós, Nossa Missão, Liderança, Contato, Arquivo) e
+comentários visíveis em cada post.
 
 Todo o conteúdo publicável está em `public/` — é esse é o diretório que vai para
 produção.

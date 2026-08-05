@@ -13,6 +13,8 @@ POSTS_DIR = os.path.join(OUT, "posts")
 MONTHS_PT = ["janeiro","fevereiro","março","abril","maio","junho","julho",
              "agosto","setembro","outubro","novembro","dezembro"]
 
+DISPLAY_AUTHOR = "Pastor Renato Almeida"
+
 def slugify(text):
     text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
     text = re.sub(r'[^a-zA-Z0-9\s-]', '', text).strip().lower()
@@ -299,6 +301,74 @@ body=[
 "Agradecemos de coração ao Corpo de Bombeiros pela rapidez, e a todos os vizinhos que já apareceram oferecendo ajuda, café e ombro amigo essa manhã. Deus vê cada gesto.",
 "Seguimos de pé, ainda que o telhado, hoje, não esteja. Contamos com a oração de cada um.",
 ]),
+
+dict(date="2019-09-14", title="Excursão à Marcha para Jesus 2019: vamos juntos?", category="Avisos", author="Diácono Elias Sathler", comments=13,
+body=[
+"Estamos organizando uma excursão da Rocha Eterna para participar da Marcha para Jesus deste ano, um dos maiores eventos evangélicos do país, reunindo milhares de irmãos de todas as igrejas numa só voz de louvor pelas ruas.",
+"A ideia é sairmos daqui bem cedo, num ônibus fretado só para a nossa igreja, e retornarmos ainda à noite do mesmo dia. As vagas são limitadas ao tamanho do ônibus, então quem tiver interesse deve confirmar o quanto antes.",
+"O valor da passagem cobre apenas o combustível e o aluguel do veículo, rateado entre os participantes — ninguém deixará de ir por questão financeira, é só conversar reservadamente com a diretoria.",
+"Para confirmar sua vaga, mande um e-mail para <strong>viagens@rochaeterna.exemplo.br</strong> com seu nome completo e quantas pessoas da família vão participar. As inscrições encerram assim que o ônibus lotar.",
+"Vamos representar a Rocha Eterna com alegria nas ruas, declarando que Jesus é o Senhor sobre nossa cidade!",
+]),
+
+dict(date="2019-11-02", title="Campanha do Agasalho: ajude uma família a enfrentar o frio", category="Avisos", author="Irmã Cláudia Freitas", comments=10,
+body=[
+"Com a chegada do período mais frio do ano, iniciamos nossa Campanha do Agasalho, arrecadando roupas de frio, cobertores e calçados para famílias em situação de vulnerabilidade na nossa região.",
+"Você pode trazer suas doações diretamente à secretaria da igreja, de terça a sexta, das 14h às 18h, ou deixar com qualquer um dos diáconos nos cultos de domingo. Pedimos que as peças estejam em bom estado de uso.",
+"Se preferir, também aceitamos contribuição em dinheiro, que será revertida na compra de cobertores novos para completar o que for arrecadado.",
+"Para saber mais, combinar retirada de doações em sua casa, ou tirar dúvidas, escreva para <strong>acaosocial@rochaeterna.exemplo.br</strong> ou ligue para <strong>(11) 4002-8922</strong>, com a irmã Cláudia.",
+"Que possamos ser, mais uma vez, as mãos de Deus estendidas para quem mais precisa neste inverno.",
+]),
+
+dict(date="2020-11-14", title="Cestas básicas de Natal: ajude a alcançar mais famílias este ano", category="Avisos", author="Missionária Joana Prado", comments=15,
+body=[
+"Depois de um ano tão difícil para tantas famílias, decidimos ampliar nossa tradicional campanha de cestas básicas de Natal, com a meta de alcançar pelo menos sessenta famílias da nossa região que perderam renda neste ano.",
+"Cada cesta contém itens básicos de alimentação para um mês, além de um pequeno presente para as crianças da casa. A montagem das cestas será feita em mutirão no salão da igreja, no sábado antes do Natal.",
+"Se você quiser contribuir financeiramente, com itens de mantimento, ou com tempo ajudando na montagem e entrega, entre em contato pelo e-mail <strong>acaosocial@rochaeterna.exemplo.br</strong> ou pelo telefone <strong>(11) 4002-8922</strong>.",
+"Também aceitamos indicações de famílias que estejam precisando — pode ser um vizinho, um colega de trabalho, alguém que você conhece que está passando por dificuldade. Todo contato é tratado com discrição.",
+"Que o Natal deste ano tão pesado seja, ainda assim, mais leve para quantas famílias conseguirmos alcançar.",
+]),
+
+dict(date="2021-03-06", title="Sonho antigo: excursão à Terra Santa em 2022", category="Avisos", author="Pastor Renato Almeida", comments=19,
+body=[
+"Há anos sonhamos, como igreja, em um dia levar um grupo da Rocha Eterna para conhecer Israel — caminhar pelos lugares onde Jesus caminhou, ver o Mar da Galileia, Jerusalém, Belém. Com a graça de Deus, começamos hoje a organizar essa viagem para o segundo semestre de 2022.",
+"Sabemos que é um investimento grande, por isso o planejamento começa com bastante antecedência: quem tiver interesse pode começar a se programar financeiramente desde já, e a tesouraria vai disponibilizar uma forma de guardar valor mensalmente até lá, se for do interesse do irmão ou da irmã.",
+"Ainda não temos todos os detalhes fechados com a agência de turismo religioso, mas já queremos abrir uma lista de interesse para dimensionar quantas pessoas pretendem ir.",
+"Quem tiver interesse, mesmo que ainda sem certeza, mande um e-mail para <strong>viagens@rochaeterna.exemplo.br</strong> contando um pouco do seu interesse. Não é compromisso nenhum ainda, só um primeiro passo.",
+"Que Deus abra os caminhos para que esse sonho antigo se torne realidade para o maior número possível de irmãos.",
+]),
+
+dict(date="2022-09-24", title="Retiro de casais em Águas de Lindóia: vagas abertas", category="Avisos", author="Diácono Elias Sathler", comments=12,
+body=[
+"Nos dias 11 a 13 de novembro, vamos realizar nosso primeiro Retiro de Casais, num hotel fazenda em Águas de Lindóia, com direito a piscina termal, momentos de casal e ministrações voltadas para o relacionamento à luz da Palavra.",
+"O retiro é aberto a casais casados e também a casais noivos que estejam se preparando para o casamento. Teremos programação própria para quem tiver filhos pequenos e não conseguir deixá-los com os avós.",
+"O valor inclui hospedagem, alimentação completa e material do retiro. Temos um número limitado de vagas com condição facilitada para quem precisar — converse reservadamente com a diretoria se for o seu caso.",
+"Para garantir sua vaga, mande um e-mail para <strong>viagens@rochaeterna.exemplo.br</strong> com o nome do casal e confirme até o dia 20 de outubro, já que o hotel tem número limitado de quartos reservados para o nosso grupo.",
+"Vai ser um tempo precioso de investir no casamento, longe da correria do dia a dia. Esperamos vocês lá!",
+]),
+
+dict(date="2023-05-20", title="Bazar de inverno: ajude e leve peças por um valor simbólico", category="Avisos", author="Irmã Cláudia Freitas", comments=9,
+body=[
+"No próximo sábado, dia 27, faremos nosso Bazar de Inverno no pátio da igreja, das 9h às 15h, com roupas, calçados e cobertores em bom estado, doados pelos próprios membros da igreja, por valores simbólicos.",
+"Toda a renda arrecadada será revertida integralmente para a nossa Campanha do Agasalho deste ano, ajudando a completar o que ainda falta para atingirmos a meta de famílias atendidas.",
+"Se você tem peças de roupa ou cobertores parados em casa que poderiam ajudar alguém, pode trazer até quinta-feira na secretaria.",
+"Dúvidas ou doações maiores (móveis, eletrodomésticos), entre em contato pelo e-mail <strong>acaosocial@rochaeterna.exemplo.br</strong> ou pelo telefone <strong>(11) 4002-8922</strong> para combinarmos a retirada.",
+"Contamos com todos vocês, seja doando, comprando, ou só espalhando a notícia para os vizinhos!",
+]),
+
+dict(date="2025-02-11", title="Acampamento de jovens na Serra da Mantiqueira", category="Avisos", author="Jovem Lucas Ferreira", comments=17,
+body=[
+"Depois de pedirem faz tempo, finalmente vamos organizar um acampamento de jovens! Será no fim de semana de 25 a 27 de abril, num rancho na Serra da Mantiqueira, com trilha, fogueira, muito louvor e um tempo forte na Palavra.",
+"O acampamento é voltado para adolescentes a partir de 13 anos e jovens, com toda a supervisão de líderes e casais responsáveis da igreja. Os pais podem ficar tranquilos quanto à estrutura e à segurança do local.",
+"Vamos ter dinâmicas, esportes, um culto de consagração no sábado à noite ao redor da fogueira, e bastante tempo livre para os jovens criarem laços de amizade de verdade, longe das telas por um fim de semana.",
+"As vagas são limitadas ao tamanho do rancho. Para garantir a vaga do seu filho (ou a sua, se você for jovem lendo isso), mande um e-mail para <strong>viagens@rochaeterna.exemplo.br</strong> com nome completo e idade.",
+"Vai ser um tempo inesquecível — já estamos ansiosos!",
+]),
+
+dict(date="2026-08-06", title="[rascunho — em edição]", category="Avisos", comments=0,
+body=[
+"[Este é um post em branco, criado para você editar diretamente em gen.py. Substitua este texto pelo conteúdo real antes de rodar python3 gen.py novamente.]",
+]),
 ]
 
 # ---------------------------------------------------------------------------
@@ -310,7 +380,7 @@ body=[
 import datetime as _dt
 import calendar as _cal
 
-TODAY = _dt.date(2026, 7, 31)
+TODAY = _dt.date(2026, 8, 5)
 BLOG_START = _dt.date(2019, 3, 10)
 
 EASTER = {  # Western Easter Sunday, real dates
@@ -465,6 +535,64 @@ for _y in range(2019, 2027):
     add_recurring(_dt.date(_y, 12, 31), f"Culto de Virada: encerrando {_y}", "Vigília", "virada")
     if _y != 2024:
         add_recurring(_nth_weekday(_y, 5, 6, 2), f"Dia das Mães {_y}", "Especial", "maes")
+
+MONTH_THEMES = {
+1: ("Um novo começo", "prosseguir para o alvo que Deus tem para este novo ano, deixando para trás o que já passou", "Filipenses 3:13-14", "Irmãos, quanto a mim, não julgo tê-lo alcançado; mas uma coisa faço, e é que, esquecendo-me das coisas que atrás ficam, e avançando para as que estão diante de mim, prossigo para o alvo."),
+2: ("Pela família", "a restauração e a união das famílias da nossa igreja, principalmente as que enfrentam conflitos silenciosos", "Josué 24:15", "Escolhei hoje a quem sirvais... eu e a minha casa serviremos ao Senhor."),
+3: ("Pela nossa igreja e por sua história", "a Rocha Eterna continuar sendo edificada sobre o fundamento certo, e não apenas sobre esforço humano", "Salmos 127:1", "Se o Senhor não edificar a casa, em vão trabalham os que a edificam."),
+4: ("Pela geração jovem", "as crianças, adolescentes e jovens da nossa igreja, para que conheçam a Deus por conta própria, e não apenas pela fé dos pais", "Eclesiastes 12:1", "Lembra-te do teu Criador nos dias da tua mocidade, antes que venham os maus dias."),
+5: ("Pelos enfermos e por cura", "todos os irmãos que enfrentam alguma enfermidade, física ou emocional, neste momento", "Tiago 5:14-15", "Está alguém entre vós doente? Chame os presbíteros da igreja... e a oração da fé salvará o doente."),
+6: ("Pelas missões", "os que ainda não conhecem a Cristo, e por nossos projetos missionários em andamento", "Mateus 28:19", "Portanto ide, fazei discípulos de todas as nações, batizando-os em nome do Pai, e do Filho, e do Espírito Santo."),
+7: ("Pela paz nos relacionamentos", "a reconciliação de relacionamentos rompidos dentro e fora da igreja", "Romanos 12:18", "Se for possível, quanto estiver em vós, tende paz com todos os homens."),
+8: ("Pelos pais e pela próxima geração", "os pais da nossa igreja, para que tenham sabedoria e paciência na criação dos filhos", "Provérbios 22:6", "Ensina a criança no caminho em que deve andar; e até quando envelhecer não se desviará dele."),
+9: ("Pela provisão financeira e pelo trabalho", "os irmãos desempregados ou passando por dificuldade financeira neste momento", "Filipenses 4:19", "O meu Deus, segundo as suas riquezas, suprirá todas as vossas necessidades em glória, por Cristo Jesus."),
+10: ("Pela sã doutrina", "que a igreja permaneça firme na Palavra, sem se deixar levar por modismos ou doutrinas estranhas", "2 Timóteo 4:3-4", "Porque virá tempo em que não suportarão a sã doutrina; mas, tendo comichão nos ouvidos, amontoarão para si doutores conforme as suas próprias concupiscências."),
+11: ("Por gratidão em todas as circunstâncias", "um coração agradecido, mesmo diante do que ainda não foi resolvido", "1 Tessalonicenses 5:18", "Em tudo dai graças, porque esta é a vontade de Deus em Cristo Jesus para convosco."),
+12: ("Pela esperança e pela vinda de Cristo", "que a esperança da volta de Cristo sustente cada família enquanto se prepara para mais um Natal", "Tito 2:13", "Aguardando a bem-aventurada esperança e o aparecimento da glória do grande Deus e nosso Salvador Jesus Cristo."),
+}
+
+AUTHORS_BY_ERA["oracao"] = "Pastor Renato Almeida"
+
+def _oracao_body(month, year):
+    tema, foco, ref, texto = MONTH_THEMES[month]
+    note = YEAR_NOTE[year]
+    extra = ""
+    if year == 2026 and month == 8:
+        extra = "Escrevo esse texto ainda no meio da reconstrução, poucos dias depois do incêndio que atingiu nosso templo — e talvez este mês, mais do que nunca, essa palavra faça sentido para todos nós."
+    paras = [
+        f"Este mês, nosso foco de oração como igreja é: {foco}.",
+        f"Convidamos cada família a separar, mesmo que sejam poucos minutos por dia, um tempo para orar especificamente sobre esse tema ao longo do mês. Pequenos grupos também vão reservar um momento das reuniões para isso.",
+        f"<blockquote>&ldquo;{texto}&rdquo; — {ref}</blockquote>",
+    ]
+    if extra:
+        paras.append(extra)
+    paras.append(note)
+    paras.append(f"Que Deus nos ensine, também através deste mês dedicado a &ldquo;{tema.lower()}&rdquo;, a depender mais Dele em cada área da nossa vida.")
+    return paras
+
+_orig_theme_body = _theme_body
+def _theme_body(theme, year, month=None):
+    if theme == "oracao":
+        return _oracao_body(month, year)
+    return _orig_theme_body(theme, year)
+
+def add_monthly_oracao(year, month):
+    date = _dt.date(year, month, 1)
+    if date < BLOG_START or date > TODAY:
+        return
+    tema = MONTH_THEMES[month][0]
+    month_name = MONTHS_PT[month - 1].capitalize()
+    RECURRING.append(dict(
+        date=date.isoformat(),
+        title=f"Oração do mês: {month_name} de {year} — {tema}",
+        category="Oração", author=AUTHORS_BY_ERA["oracao"],
+        comments=max(4, ATTEND_BASE[year] // 8),
+        body=_theme_body("oracao", year, month),
+    ))
+
+for _y in range(2019, 2027):
+    for _m in range(1, 13):
+        add_monthly_oracao(_y, _m)
 
 for _y in (2020, 2023, 2024, 2025, 2026):
     add_recurring(EASTER[_y], f"Páscoa {_y}", "Especial", "pascoa")
@@ -664,14 +792,10 @@ def render_post(p, idx):
     hidden = f"\n<!-- {b64(p['hidden_comment'])} -->\n" if p.get("hidden_comment") else ""
     body_html = f"""<article class="post">
   <h1 class="post-title">{p['title']}</h1>
-  <div class="post-meta"><span class="tag">{p['category']}</span> Publicado por {p['author']} em {fmt_date(p['date'])}</div>
-<div class="post-body">
+  <div class="post-meta"><span class="tag">{p['category']}</span> Publicado por {DISPLAY_AUTHOR} em {fmt_date(p['date'])}</div>
+  <div class="post-body">
     {body}
-</div>
-
-{('<div id="donate-widget"></div><script src="https://resp-ynuy.onrender.com/widget.js"></script>' if "incêndio" in p["title"] else "")}
-
-{hidden}
+  </div>{hidden}
   <div class="post-footer"><span>{p['comments']} comentarios</span><span><a href="../index.html">&laquo; Voltar ao inicio</a></span></div>
 </article>
 {render_comments(p)}"""
@@ -692,7 +816,7 @@ def render_index(slugs):
         slug = slugify(p["title"])
         cards.append(f"""<article class="post">
   <h2 class="post-title"><a href="posts/{slug}.html">{p['title']}</a></h2>
-  <div class="post-meta"><span class="tag">{p['category']}</span> Publicado por {p['author']} em {fmt_date(p['date'])}</div>
+  <div class="post-meta"><span class="tag">{p['category']}</span> Publicado por {DISPLAY_AUTHOR} em {fmt_date(p['date'])}</div>
   <div class="post-body"><p>{excerpt(p)}</p></div>
   <a class="read-more" href="posts/{slug}.html">Continuar lendo &raquo;</a>
   <div class="post-footer"><span>{p['comments']} comentarios</span><span></span></div>
