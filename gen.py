@@ -282,6 +282,23 @@ body=[
 "Para o segundo semestre, vamos iniciar um novo ciclo de estudos sobre os dons espirituais, além de retomar as vigílias mensais que ficaram pausadas no início do ano por causa da reforma do telhado.",
 "Seguimos firmes no propósito de sempre: ser uma comunidade de fé, cura e restauração para quem quer que Deus traga até nós — hoje, e nos anos que ainda virão.",
 ]),
+dict(date="2026-08-02", title="Um pedido de oração urgente: nossa igreja foi atingida por um incêndio", category="Avisos", author="Pastor Renato Almeida", comments=52,
+body=[
+"Irmãos, escrevo esse texto ainda sem acreditar direito no que aconteceu. Na madrugada de hoje, por volta das 3h, fomos acordados com uma ligação: o salão principal da Rocha Eterna estava em chamas.",
+"Quando cheguei, os bombeiros já estavam no local, tentando conter o fogo que já havia tomado boa parte do telhado e da frente do templo. Fiquei parado na calçada, sem conseguir dizer nada, vendo o lugar onde batizamos, choramos, comemoramos e oramos juntos por tantos anos sendo consumido diante dos meus olhos.",
+"Aos poucos, mesmo àquela hora da madrugada, os irmãos foram chegando. Ficamos ali, do lado de fora, abraçados, muitos chorando abertamente, outros em silêncio, e em algum momento, sem ninguém combinar nada, começamos a orar em voz alta, todos juntos, na calçada, enquanto observávamos o trabalho dos bombeiros.",
+"Segundo as primeiras informações repassadas pelo corpo de bombeiros, os sinais encontrados no local indicam que não foi acidental. A perícia foi acionada e deve confirmar o que já parece claro pelo que foi encontrado ali.",
+"Preciso ser honesto com vocês sobre uma coisa, mesmo sabendo que esse parágrafo vai gerar perguntas. A liderança da igreja tem uma ideia bastante clara de quem pode estar por trás disso. Não é um palpite qualquer — são coisas que já vínhamos observando, juntando, calando por respeito, nos últimos tempos. Ainda assim, decidimos, em oração e em conjunto com a diretoria, não expor nenhum nome aqui, nem em conversa particular por enquanto. Não temos provas que sustentem uma acusação formal, e mesmo se tivéssemos, não é papel deste blog fazer esse tipo de julgamento. Isso cabe às autoridades, e a elas vamos entregar tudo o que sabemos.",
+"Sei que pedir paciência numa hora dessas é difícil. Peço mesmo assim. Que ninguém tente adivinhar nos comentários, nem espalhar nomes por conta própria — isso só machucaria pessoas inocentes e atrapalharia qualquer apuração séria. Vamos deixar a justiça, humana e também a de Deus, fazer o que compete a cada uma.",
+"A notícia mais importante, e pela qual já começamos a agradecer a Deus mesmo em meio à dor: ninguém ficou ferido. O templo estava vazio àquela hora, e isso, para nós, já é motivo de profunda gratidão.",
+"<blockquote>&ldquo;Quando passares pelas águas, estarei contigo; e quando pelos rios, eles não te submergirão; quando passares pelo fogo, não te queimarás, nem a chama arderá em ti.&rdquo; — Isaías 43:2</blockquote>",
+"Não vou fingir que essa palavra já faz sentido pra mim essa manhã, olhando pro que restou do nosso salão. Mas eu creio nela. Creio que a Rocha Eterna não é, nunca foi, aquele prédio — é vocês, é esse povo que às 4 da manhã largou a cama pra vir chorar e orar junto, é a fé que atravessou pandemia, atravessou a partida de gente querida, e vai atravessar isso também.",
+"Enquanto avaliamos os danos e conversamos com a seguradora e com as autoridades, os cultos de domingo vão acontecer temporariamente no salão de festas do Sítio Bom Pastor, gentilmente cedido pela família do irmão Osvaldo — o mesmo lugar onde já realizamos batismos outras vezes. Mais detalhes de horário serão passados no grupo da igreja ainda essa semana.",
+'<div class="live-updates" id="atualizacoes-incendio">\n  <h3>Atualizações</h3>\n  <p>Em breve, atualizações sobre a perícia, a reconstrução e como ajudar aparecerão aqui.</p>\n</div>',
+"Pedimos, com o coração apertado mas ainda em pé, que orem conosco: pela perícia, para que se chegue à verdade do que aconteceu; pelos irmãos mais abalados com essa notícia; por quem quer que tenha feito isso, para que o coração dessa pessoa seja alcançado antes que algo pior aconteça; e pela nossa igreja, para que esse incêndio não apague, de forma nenhuma, o que Deus tem construído aqui desde 2013.",
+"Agradecemos de coração ao Corpo de Bombeiros pela rapidez, e a todos os vizinhos que já apareceram oferecendo ajuda, café e ombro amigo essa manhã. Deus vê cada gesto.",
+"Seguimos de pé, ainda que o telhado, hoje, não esteja. Contamos com a oração de cada um.",
+]),
 ]
 
 # ---------------------------------------------------------------------------
@@ -643,7 +660,7 @@ def render_comments(p):
 
 def render_post(p, idx):
     slug = slugify(p["title"])
-    body = "\n".join(f"<p>{para}</p>" if not para.strip().startswith("<blockquote") else para for para in p["body"])
+    body = "\n".join(f"<p>{para}</p>" if not para.strip().startswith(("<blockquote", "<div")) else para for para in p["body"])
     hidden = f"\n<!-- {b64(p['hidden_comment'])} -->\n" if p.get("hidden_comment") else ""
     body_html = f"""<article class="post">
   <h1 class="post-title">{p['title']}</h1>

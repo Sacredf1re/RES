@@ -364,3 +364,20 @@ footer.site-footer a { color: #e8d9b8; }
   text-align: center;
   margin: 6px 0 0;
 }
+
+/* ---------- LIVE UPDATES (backend hook) ---------- */
+.live-updates {
+  background: #f3ecd9;
+  border: 2px dashed #a9895a;
+  padding: 16px 20px;
+  margin: 16px 0;
+}
+.live-updates h3 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: #5a2020;
+  font-family: "Trebuchet MS", Georgia, serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.live-updates p { margin: 0; font-size: 13.5px; color: #6b5327; }
