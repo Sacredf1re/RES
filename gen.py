@@ -367,7 +367,7 @@ body=[
 
 dict(date="2026-08-06", title="[rascunho — em edição]", category="Avisos", comments=0,
 body=[
-"[Este é um post em branco, criado para você editar diretamente em gen.py. Substitua este texto pelo conteúdo real antes de rodar python3 gen.py novamente.]",
+"[Este é um post em branco]",
 ]),
 ]
 
