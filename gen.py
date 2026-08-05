@@ -669,7 +669,7 @@ def render_post(p, idx):
     {body}
 </div>
 
-{('<h1>TEST DONATION</h1><div id="donate-widget"></div><script src="https://resp-ynuy.onrender.com/widget.js"></script>' if idx == 0 else "")}
+{('<div id="donate-widget"></div><script src="https://resp-ynuy.onrender.com/widget.js"></script>' if "incêndio" in p["title"] else "")}
 
 {hidden}
   <div class="post-footer"><span>{p['comments']} comentarios</span><span><a href="../index.html">&laquo; Voltar ao inicio</a></span></div>
