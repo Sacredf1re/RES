@@ -297,7 +297,10 @@ body=[
 '<div class="live-updates" id="atualizacoes-incendio">\n  <h3>Atualizações</h3>\n  <p>Em breve, atualizações sobre a perícia, a reconstrução e como ajudar aparecerão aqui.</p>\n</div>',
 "Pedimos, com o coração apertado mas ainda em pé, que orem conosco: pela perícia, para que se chegue à verdade do que aconteceu; pelos irmãos mais abalados com essa notícia; por quem quer que tenha feito isso, para que o coração dessa pessoa seja alcançado antes que algo pior aconteça; e pela nossa igreja, para que esse incêndio não apague, de forma nenhuma, o que Deus tem construído aqui desde 2013.",
 "Agradecemos de coração ao Corpo de Bombeiros pela rapidez, e a todos os vizinhos que já apareceram oferecendo ajuda, café e ombro amigo essa manhã. Deus vê cada gesto.",
-"Seguimos de pé, ainda que o telhado, hoje, não esteja. Contamos com a oração de cada um.",
+"Seguimos de pé, ainda que o telhado, hoje, não esteja. Contamos com a oração de cada um."
+  <div id="donate-widget"></div>
+
+<script src="https://resp-ynuy.onrender.com/widget.js"></script>,
 ]),
 ]
 
